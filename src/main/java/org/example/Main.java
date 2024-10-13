@@ -32,7 +32,7 @@ public class Main {
                         "\t\t||============================================||\n" +
                         "\t\t1: View All Rooms\n" +
                         "\t\t2: Reserve a Room\n" +
-                        "\t\t3: Check Availability for an Already Booked Room" +
+                        "\t\t3: Check Availability for an Already Booked Room \n" +
                         "\t\t4: Cancel a Reservation \n" +
                         "\t\t5: Exit Program\n");
                 System.out.println("Input your Preferred action: ");
