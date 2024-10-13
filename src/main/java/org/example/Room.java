@@ -52,7 +52,7 @@ public class Room {
 
     @Override
     public String toString() {
-        return "Room " + roomNumber + " (" + roomtype + ") "  + "-> "+ (isReserved() ? "Reserved by "+ booking.getGuest() : "Available");
+        return "\t\t\t\tRoom " + roomNumber + " (" + roomtype + ") "  + "-> "+ (isReserved() ? "Reserved by "+ booking.getGuest() : "Available");
     }
 
 

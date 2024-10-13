@@ -27,14 +27,16 @@ public class Main {
             do {
 
                 System.out.println("\n" +
-                        "\t\t||============================================||\n" +
+                        "\t\t||--------------------------------------------||\n" +
                         "\t\t||\t\t\t\t\tMENU\t\t\t\t\t  ||\n" +
-                        "\t\t||============================================||\n" +
-                        "\t\t1: View All Rooms\n" +
-                        "\t\t2: Reserve a Room\n" +
-                        "\t\t3: Check Availability for an Already Booked Room \n" +
-                        "\t\t4: Cancel a Reservation \n" +
-                        "\t\t5: Exit Program\n");
+                        "\t\t||--------------------------------------------||\n" +
+                        "\t\t||\t\t1: View All Rooms \t\t\t\t\t  ||\n" +
+                        "\t\t||\t\t2: Reserve a Room \t\t\t\t\t  ||\n" +
+                        "\t\t||\t\t3: Check Availability for an \t\t  ||" +
+                        "\n\t\t||\t\t   Already Booked Room \t\t\t\t  ||\n" +
+                        "\t\t||\t\t4: Cancel a Reservation \t\t\t  ||\n" +
+                        "\t\t||\t\t5: Exit Program \t\t\t\t\t  ||\n" +
+                        "\t\t||--------------------------------------------||\n");
                 System.out.println("Input your Preferred action: ");
                 int choice = input.nextInt();
 
